@@ -17,22 +17,26 @@ Before running the code, make sure you have a data folder (with the subfolders r
 
 Your project setup should be organized as follows:
 
- sds210-project/
-│── data/
+ ## Project Structure
+
+```plaintext
+sds210-project/
+├── data/
 │   ├── raw/
 │   └── processed/
 │
-│── output/ 
+├── output/
 │
-│── notebooks/
+├── notebooks/
 │   ├── API-script.ipynb
-│   └── Cleaning-script.ipynb
+│   ├── Cleaning-script.ipynb
 │   └── Analysis-script.ipynb
 │
-│── README.md
-│── requirements.txt
-│── sds-env.yml
-│── .gitignore
+├── README.md
+├── requirements.txt
+├── sds-env.yml
+└── .gitignore
+```
 
 # Execution Order:
  
